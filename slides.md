@@ -52,6 +52,7 @@ style: |
   }
 ---
 
+<!-- Title Slide -->
 # **Product Documentation Presentation**
 ## DataSync Engine — Developer Guide
 
@@ -77,8 +78,9 @@ This presentation is built using **Marp**, designed for:
 
 ---
 
+<!-- Background Image Slide (REQUIRED) -->
 ---
-backgroundImage: "https://images.unsplash.com/photo-1527443224154-d8f76c3b3c54?q=80&w=1920"
+backgroundImage: "images/background.jpg"
 backgroundSize: cover
 backgroundPosition: center
 ---
