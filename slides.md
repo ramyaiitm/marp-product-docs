@@ -40,6 +40,7 @@ style: |
     padding: 10px;
     border-left: 4px solid var(--primary);
     border-radius: 8px;
+    color: white;
   }
 
   .email {
@@ -51,7 +52,6 @@ style: |
   }
 ---
 
-<!-- Title Slide -->
 # **Product Documentation Presentation**
 ## DataSync Engine — Developer Guide
 
@@ -68,21 +68,21 @@ This presentation is built using **Marp**, designed for:
 - Developer-friendly documentation  
 
 <div class="card">
-**Key Components:**  
-✔ Architecture  
-✔ API Reference  
-✔ Deployment  
-✔ Troubleshooting  
+<strong>Key Components:</strong><br>
+✔ Architecture<br>
+✔ API Reference<br>
+✔ Deployment<br>
+✔ Troubleshooting
 </div>
 
 ---
 
-<!-- Background Image Slide -->
-<!--
-backgroundImage: url('https://images.unsplash.com/photo-1527443224154-d8f76c3b3c54?q=80&w=1920')
+---
+backgroundImage: "https://images.unsplash.com/photo-1527443224154-d8f76c3b3c54?q=80&w=1920"
 backgroundSize: cover
 backgroundPosition: center
--->
+---
+
 # Architecture Overview
 
 > The DataSync Engine connects client agents to cloud ingestion pipelines securely.
