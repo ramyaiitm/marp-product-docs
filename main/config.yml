@@ -1,0 +1,7 @@
+datasync:
+  port: 9000
+  ssl: true
+  retries: 3
+pipeline:
+  workers: 8
+  mode: "hybrid"
