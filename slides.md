@@ -23,14 +23,23 @@ h1 {
 }
 </style>
 
-<!-- Title Slide with background -->
-<!-- _class: lead -->
-<!-- _backgroundImage: url('images/background.jpg') -->
-<!-- _backgroundSize: cover -->
+---
 
 # **Product Documentation**
 ### Prepared by Ramya IITM  
-📧 **22f3002140@ds.study.iitm.ac.in**
+📧 **22f3002140@ds.study.iitm.ac.in**  
+### December 2025
+
+<!-- Background image applied to this slide -->
+---
+_class: lead
+backgroundImage: url('images/background.jpg')
+backgroundSize: cover
+---
+
+# **Product Documentation**
+### Prepared by Ramya IITM  
+📧 **22f3002140@ds.study.iitm.ac.in**  
 ### December 2025
 
 ---
@@ -47,38 +56,35 @@ This documentation is designed to be maintainable in version control and exporta
 
 This presentation uses:
 
-- A **custom theme** (defined with `<style>` in the header)  
-- Custom colors  
-- Rounded highlight sections  
+- A **custom theme** (inline CSS)  
+- Project-specific colors  
+- Highlight boxes for emphasis  
+- Clean typography  
 
 ---
 
 # **Algorithmic Complexity (Math Support)**
 
-Example time complexity formula:
+Common performance equations:
 
 \[
 T(n) = O(n \log n)
 \]
 
-Space complexity:
-
 \[
 S(n) = O(n)
 \]
 
-Algorithmic throughput:
-
 \[
-Throughput = \frac{\text{Total Operations}}{\text{Execution Time}}
+Accuracy = \frac{Correct\ Predictions}{Total\ Predictions}
 \]
 
 ---
 
-# **System Workflow (with styling)**
+# **System Workflow**  
 
 <div class="highlight-box">
-The system processes user input, applies validation, and generates responses through the API layer.
+The system processes user input, performs validation, and generates structured responses via the API layer.
 </div>
 
 ---
@@ -86,15 +92,15 @@ The system processes user input, applies validation, and generates responses thr
 # **Feature Summary**
 
 - Version-controlled documentation  
-- Reusable slide templates  
+- Reusable Marp templates  
 - Mathematical notation  
-- Export-ready formats  
+- Exportable to PDF, HTML, PPTX  
 - Custom theme & styling  
+- Background image support  
 
 ---
 
 # **Thank You**
 
-📧 **22f3002140@ds.study.iitm.ac.in**
-
-Maintained using **Marp + GitHub**  
+📧 **22f3002140@ds.study.iitm.ac.in**  
+Maintained using **Marp + GitHub**
