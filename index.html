@@ -5,10 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Product Documentation Presentation</title>
 
-<!-- Marp Core -->
+<!-- Marp Core CSS -->
 <link rel="stylesheet" href="https://unpkg.com/@marp-team/marp-core/lib/marp.css">
 
-<!-- Marp Theme (default + custom overrides) -->
+<!-- MathJax for equations -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- Custom Theme from slides.md -->
 <style>
 :root {
   --bg: #0d1117;
@@ -55,13 +60,11 @@ pre {
 }
 </style>
 
-<!-- Marp Scripts -->
-<script src="https://unpkg.com/@marp-team/marp-core/lib/marp.min.js"></script>
 </head>
 
 <body class="marp">
 
-<!-- Slide 1 -->
+<!-- TITLE SLIDE -->
 <section>
 <h1><strong>Product Documentation Presentation</strong></h1>
 <h2>DataSync Engine — Developer Guide</h2>
@@ -69,7 +72,7 @@ pre {
 <u>22f3002140@ds.study.iitm.ac.in</u></p>
 </section>
 
-<!-- Slide 2 -->
+<!-- OVERVIEW SLIDE -->
 <section>
 <h1>Overview</h1>
 <p>This presentation is built using <strong>Marp</strong>, designed for:</p>
@@ -88,7 +91,7 @@ pre {
 </div>
 </section>
 
-<!-- Slide 3 (Background image) -->
+<!-- BACKGROUND IMAGE SLIDE -->
 <section style="
   background-image: url('https://images.unsplash.com/photo-1527443224154-d8f76c3b3c54?q=80&w=1920');
   background-size: cover;
@@ -99,13 +102,55 @@ pre {
 <div class="email">22f3002140@ds.study.iitm.ac.in</div>
 </section>
 
-<!-- Slide 4 -->
+<!-- INSTALLATION -->
 <section>
 <h1>Installation</h1>
 <h3>1. Download and extract</h3>
 <pre><code>tar xzf datasync-1.0.0.tar.gz
 cd datasync
 </code></pre>
+</section>
+
+<!-- API EXAMPLE -->
+<section>
+<h1>API Example (Python)</h1>
+<pre><code>import requests
+
+payload = {"id": 1001, "value": "sync-test"}
+r = requests.post("https://httpbin.org/post", json=payload)
+print(r.status_code)
+</code></pre>
+</section>
+
+<!-- MATH SLIDE -->
+<section>
+<h1>Algorithmic Complexity</h1>
+
+<p>The time complexity of the sync scheduler:</p>
+
+<p>$$ T(n) = O(n \log n) $$</p>
+
+<p>Batch upload throughput model:</p>
+
+<p>$$ Throughput = \frac{Records}{Time} $$</p>
+</section>
+
+<!-- RAW GITHUB URL -->
+<section>
+<h1>Raw GitHub URL Format</h1>
+
+<p>Use this format when committing your slides:</p>
+
+<pre><code>https://raw.githubusercontent.com/&lt;USERNAME&gt;/&lt;REPO&gt;/main/slides.md
+</code></pre>
+
+<p>Replace &lt;USERNAME&gt; and &lt;REPO&gt; with your actual repository name.</p>
+</section>
+
+<!-- END -->
+<section>
+<h1>End of Presentation</h1>
+<p><strong>Thank you.</strong></p>
 </section>
 
 </body>
